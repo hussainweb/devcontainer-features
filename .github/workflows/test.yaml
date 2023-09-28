@@ -17,7 +17,7 @@ jobs:
         baseImage:
           - debian:latest
           - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - mcr.microsoft.com/vscode/devcontainers/base:ubuntu
           - mcr.microsoft.com/vscode/devcontainers/typescript-node:18
     steps:
       - uses: actions/checkout@v3
