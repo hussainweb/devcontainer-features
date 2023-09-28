@@ -1,0 +1,17 @@
+{
+    "id": "bun",
+    "version": "1.0.0",
+    "name": "Bun (direct install) and bunx",
+    "documentationURL": "https://github.com/devcontainers/features/tree/main/src/node",
+    "description": "Installs bun and bunx.",
+    "options": {},
+    "customizations": {
+        "vscode": {
+            "extensions": ["dbaeumer.vscode-eslint"]
+        }
+    },
+    "containerEnv": {
+        "PATH": "${HOME}/.bun/bin:${PATH}"
+    },
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
