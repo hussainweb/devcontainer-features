@@ -34,8 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - bun
     steps:
       - uses: actions/checkout@v3
 
